@@ -12,24 +12,24 @@ const Carousel = () => {
                 <div className="carousel-item active">
                     <img src="../../../public/slides1.webp" className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h2>Experience Excellence in General Treatment at Med</h2>
-                        <p>Your health is our priority. From routine check-ups to specialized treatments, our
+                        <h2 className='text-dark'>Experience Excellence in General Treatment at Med</h2>
+                        <p className='text-dark'>Your health is our priority. From routine check-ups to specialized treatments, our
                             experienced professionals are here to guide you every step of the way.</p>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src="../../../public/slides2.webp" className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Cutting-Edge Technology for Better Health</h5>
-                        <p>Your health is our priority. From routine check-ups to specialized treatments, our
+                        <h2 className='text-dark'>Cutting-Edge Technology for Better Health</h2>
+                        <p className='text-dark'>Your health is our priority. From routine check-ups to specialized treatments, our
                             experienced professionals are here to guide you every step of the way.</p>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src="../../../public/slides3.webp" className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Trusted Care from Experienced Professionals</h5>
-                        <p>Your health is our priority. From routine check-ups to specialized treatments, our
+                        <h2 className='text-dark'>Trusted Care from Experienced Professionals</h2>
+                        <p className='text-dark'>Your health is our priority. From routine check-ups to specialized treatments, our
                             experienced professionals are here to guide you every step of the way.</p>
                     </div>
                 </div>
