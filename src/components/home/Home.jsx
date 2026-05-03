@@ -1,12 +1,13 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
+import Carousel from '../carousel/Carousel'
 
 const Home = () => {
   return (
     <>
       <Navbar/>
-      <main>
-        
+      <main id='home'>
+        <Carousel/>
       </main>
     </>
   )
