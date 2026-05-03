@@ -1,23 +1,23 @@
 .bgHeader{
     background-color: #F4F7FE;
 }
-ul{
+.ulList{
     list-style: none;
     padding: 1rem 0;
     margin: 0;
     display: flex;
 }
-li{
+.ulListLi{
     width: 1.875rem;
     height: 1.875rem;
     text-align: center;
     border-radius: 100%;
     background-color: white;
 }
-ul li a{
+ul.ulList li.ulListLi a{
     color: #476db2;
 }
-i.fa-solid.fa-envelope{
+i.fa-solid.fa-envelope, i.fa-solid.fa-location-dot{
     color: #476db2;
 }
 figure{
