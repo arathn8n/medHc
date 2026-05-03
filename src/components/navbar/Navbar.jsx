@@ -38,7 +38,7 @@ const Navbar = () => {
                     </ul>
                 </div>
             </header>
-            <div className="contenedorInfo container d-flex justify-content-between align-items-center flex-wrap pt-4">
+            <div className="contenedorInfo container d-flex justify-content-between align-items-center flex-wrap py-4">
                 <a href="/">
                     <img className='img-fluid' src="../../../public/logo.png" alt="logo" />
                 </a>
@@ -62,7 +62,10 @@ const Navbar = () => {
                 </div>
             </div>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img className='img-fluid' src="../../../public/logo.png" alt="logo" />
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -72,13 +75,22 @@ const Navbar = () => {
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="#">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link" href="#">Specialists</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                 <a class="nav-link" href="#">All Departments</a>
+                            </li>
+                            <li class="nav-item">
+                                 <a class="nav-link" href="#">Doctors</a>
+                            </li>
+                            <li class="nav-item">
+                                 <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                 <a class="nav-link" href="#">Contact</a>
                             </li>
                         </ul>
                     </div>

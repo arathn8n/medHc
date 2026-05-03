@@ -32,3 +32,6 @@ figure .imgFigure{
         display: none !important;
     }
 }
+div#navbarNav{
+    justify-content: flex-end;
+}
