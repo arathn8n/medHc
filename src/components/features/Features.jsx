@@ -3,7 +3,7 @@ import './features.css'
 
 const Features = () => {
     return (
-        <div className='container pt-5'>
+        <div className='container py-5'>
             <section>
                 <header>
                     <h1 className='features py-3'>Advanced Healthcare Features for Better <br /> Outcomes</h1>

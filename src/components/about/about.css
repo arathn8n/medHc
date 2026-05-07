@@ -1,0 +1,17 @@
+.spanAbout{
+    color: #476db2;
+}
+.figureAbout{
+    position: relative;
+}
+.figcaptionAbout{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #476db2;
+    color: white;
+    padding: 1rem;
+}
+.bgColorW{
+    background-color: #F4F7FE;
+}
