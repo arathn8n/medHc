@@ -8,7 +8,7 @@ const About = () => {
                 <div className='row align-items-center'>
                     <section className='col-12 col-md-6'>
                         <header>
-                            <h2>Story About Our Med<span className='spanAbout'>HC</span> </h2>
+                            <h2 className='h2About'>Story About Our Med<span className='spanAbout'>HC</span> </h2>
                         </header>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
