@@ -5,6 +5,7 @@ import Features from '../features/Features'
 import About from '../about/About'
 import Since from '../since/Since'
 import Services from '../services/Services'
+import Departments from '../departments/Departments'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <About/>
         <Since/>
         <Services/>
+        <Departments/>
       </main>
     </>
   )
