@@ -4,7 +4,7 @@ import './navbar.css'
 const Navbar = () => {
     return (
         <>
-            <header className='bgHeader'>
+            <header className='bgHeader' id='home'>
                 <div className='container d-flex justify-content-between align-items-center flex-wrap'>
                     <div>
                         <i className="fa-solid fa-location-dot"></i>
@@ -75,13 +75,13 @@ const Navbar = () => {
                                 <a className="nav-link active" aria-current="page" href="#home">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About Us</a>
+                                <a className="nav-link" href="#about">About Us</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Specialists</a>
+                                <a className="nav-link" href="#Specialists">Specialists</a>
                             </li>
                             <li className="nav-item">
-                                 <a className="nav-link" href="#">All Departments</a>
+                                 <a className="nav-link" href="#Departments">All Departments</a>
                             </li>
                             <li className="nav-item">
                                  <a className="nav-link" href="#">Doctors</a>

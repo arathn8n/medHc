@@ -6,7 +6,7 @@ const Since = () => {
     <div className="container">
       <div className='row align-items-center'>
         <div className='col-12 col-md-6'>
-          <img src="../../../public/about-story.webp" alt="" />
+          <img className='img-fluid' src="../../../public/about-story.webp" alt="" />
         </div>
         <section className='col-12 col-md-6'>
           <header>
