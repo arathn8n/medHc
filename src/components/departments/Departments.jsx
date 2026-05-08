@@ -3,7 +3,7 @@ import './department.css'
 
 const Departments = () => {
   return (
-    <div className='container' id='Departments'>
+    <div className='container py-5' id='Departments'>
       <section>
         <header>
           <h2 className='h2Department text-center'>A Commitment to Excellence in Medical Departments</h2>
