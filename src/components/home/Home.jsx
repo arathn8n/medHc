@@ -6,6 +6,7 @@ import About from '../about/About'
 import Since from '../since/Since'
 import Services from '../services/Services'
 import Departments from '../departments/Departments'
+import Doctors from '../doctors/Doctors'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         <Since/>
         <Services/>
         <Departments/>
+        <Doctors/>
       </main>
     </>
   )
