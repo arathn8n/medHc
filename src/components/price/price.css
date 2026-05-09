@@ -1,0 +1,19 @@
+.h2Price{
+    font-weight: 700;
+}
+.pPrice{
+    color: #5A5A5A;
+}
+.pBasic{
+    color: #476db2;
+}
+button.btn.btn-primary{
+    background-color: #476db2;
+    padding: 1rem;
+}
+.priceArticle{
+    border: 1px solid #cecece;
+}
+a{
+    text-decoration: none;
+}
