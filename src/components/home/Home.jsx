@@ -8,6 +8,7 @@ import Services from '../services/Services'
 import Departments from '../departments/Departments'
 import Doctors from '../doctors/Doctors'
 import Price from '../price/Price'
+import Contact from '../contact/Contact'
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         <Departments/>
         <Doctors/>
         <Price/>
+        <Contact/>
       </main>
     </>
   )

@@ -1,0 +1,49 @@
+.bgFooter{
+    background-color: #F4F7FE;
+}
+.h2Footer{
+    font-weight: 700;
+}
+.pFooter{
+    color: #5A5A5A;
+}
+.footer{
+    background-color: white;
+}
+.articleFooter{
+    background-color: #F4F7FE;
+    padding: 1rem;
+}
+.pForm{
+    color: #476db2;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem ;
+  background-color: #F4F7FE;
+}
+input[type="email"]{
+    width: 50%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #F4F7FE;
+}
+
+input[type="number"]{
+    width: 50%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #F4F7FE;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    background-color: #F4F7FE;
+}
+.contentText{
+    margin-bottom: 1rem;
+}
+.contentEmailNumber{
+    margin-bottom: 1rem;
+}
