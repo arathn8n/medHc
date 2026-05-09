@@ -3,7 +3,7 @@ import './doctor.css'
 
 const Doctors = () => {
     return (
-        <div className='bgDoctor py-5'>
+        <div className='bgDoctor py-5' id='doctors'>
             <section className='container text-center'>
                 <header>
                     <h2 className='h2Doctors'>Our Professional and Experienced Doctors</h2>
@@ -11,8 +11,33 @@ const Doctors = () => {
                 <p className='pDoctors'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
                 <div className='row'>
-                    <figure className='col-12 col-md-4'>
+                    <figure className='col-12 col-md-4 figureDoctors'>
                         <img className='img-fluid' src="../../../public/doctor_01.webp" alt="doctor" />
+
+                        
+                            <ul className='ulDoctors'>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        
 
                         <figcaption className='figcaptionDoctor'>
                             <header>
@@ -22,8 +47,31 @@ const Doctors = () => {
                         </figcaption>
                     </figure>
 
-                    <figure className='col-12 col-md-4'>
+                    <figure className='col-12 col-md-4 figureDoctors'>
                         <img className='img-fluid' src="../../../public/doctor_02.webp" alt="doctor" />
+
+                        <ul className='ulDoctors'>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
 
                         <figcaption className='figcaptionDoctor'>
                             <header>
@@ -33,8 +81,31 @@ const Doctors = () => {
                         </figcaption>
                     </figure>
 
-                    <figure className='col-12 col-md-4'>
+                    <figure className='col-12 col-md-4 figureDoctors'>
                         <img className='img-fluid' src="../../../public/doctor_03.webp" alt="doctor" />
+
+                        <ul className='ulDoctors'>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
 
                         <figcaption className='figcaptionDoctor'>
                             <header>
@@ -44,10 +115,33 @@ const Doctors = () => {
                         </figcaption>
                     </figure>
 
-                    <figure className='col-12 col-md-4'>
+                    <figure className='col-12 col-md-4 figureDoctors'>
                         <img className='img-fluid' src="../../../public/doctor_04.webp" alt="doctor" />
 
-                        <figcaption className='figcaptionDoctor'>
+                        <ul className='ulDoctors'>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        <figcaption className='figcaptionDoctor '>
                             <header>
                                 <h3 className='h3Doctor'>Dr. Sophia</h3>
                             </header>
@@ -55,8 +149,31 @@ const Doctors = () => {
                         </figcaption>
                     </figure>
 
-                    <figure className='col-12 col-md-4'>
+                    <figure className='col-12 col-md-4 figureDoctors'>
                         <img className='img-fluid' src="../../../public/doctor_05.webp" alt="doctor" />
+
+                        <ul className='ulDoctors'>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
 
                         <figcaption className='figcaptionDoctor'>
                             <header>
@@ -66,8 +183,31 @@ const Doctors = () => {
                         </figcaption>
                     </figure>
 
-                    <figure className='col-12 col-md-4'>
+                    <figure className='col-12 col-md-4 figureDoctors'>
                         <img className='img-fluid' src="../../../public/doctor_06.webp" alt="doctor" />
+
+                        <ul className='ulDoctors'>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
 
                         <figcaption className='figcaptionDoctor'>
                             <header>

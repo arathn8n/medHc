@@ -1,14 +1,47 @@
-.h2Doctors{
-    font-weight: 700;
-}
-.pDoctors{
-    color: #5A5A5A;
-}
-.h3Doctor{
-    font-weight: 500;
-}
 .bgDoctor{
     background-color: #F4F7FE;
+}
+.figureDoctors {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Se aplica una transición suave al filtro de la imagen (cuando se oscurece en el hover). */
+.figureDoctors img {
+  transition: filter 0.3s ease-in-out;
+}
+
+/* Ocultar redes por defecto */
+.ulDoctors {
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.ulDoctors li a {
+  color: white;
+  font-size: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.ulDoctors li a:hover {
+  transform: scale(1.2);
+}
+
+/* Hover sobre el figure */
+.figureDoctors:hover img {
+  filter: brightness(40%); /* oscurece la imagen */
+}
+
+.figureDoctors:hover .ulDoctors {
+  opacity: 1; /* muestra las redes */
 }
 .figcaptionDoctor{
     background-color: white;
